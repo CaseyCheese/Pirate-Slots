@@ -68,8 +68,11 @@ function handleWithdraw() {
     } else {
         h1.textContent = 'You have lost.';
         depositInput.remove();
-        enterBtn.remove();
         document.querySelector('.menu-section>p').textContent = 'You are bankrupt.';
+
+        // Button that refreshes the web page
+        enterBtn.textContent = 'RESET';
+        enterBtn.addEventListener('click', () => location.reload());
     }
     setTimeout(() => h1.textContent = 'Loot of Blackbeard', 7500);
 
@@ -152,6 +155,7 @@ function checkBalance() {
 function changeBet(event) {
     let bet = event.target.textContent;
 
+    // Adjusts bet and prize amounts
     betSpan.textContent = bet;
     prizeId.textContent = Number(bet) * 10;
 }
@@ -160,7 +164,7 @@ function userWin() {
     let coins = Number(coinsSpan.textContent);
     let win = Number(winSpan.textContent);
 
-    // Show 'win' amount
+    // Show win amount
     winP.style.display = 'block';
     setTimeout(() => winP.style.display = 'none', 7500);
     coinsSpan.textContent = coins + win;
