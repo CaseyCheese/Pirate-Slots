@@ -5,8 +5,8 @@
 - You can deposit gold coins to play with the hopes of winning the grand prize, or losing all your money.
 - You can bet different amount of coins at once as a multiplier.
 - You can withdraw your coins at any time which will conclude the game.
-- If you withdraw and your coins are lower than when you initially deposited, you lose and it displays "Better Luck Next Time".
-- If you withdraw more coins than you initially deposited, or if the amount is less than or equal to 0, it displays: "Congratulations! You Won!"
+- If you run out of money, you will go bankrupt.
+- If you withdraw before your bank account reaches 0 gold coins, you win!
 
 
 #### Screenshots

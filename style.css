@@ -1,0 +1,93 @@
+/* * {
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+
+.menu-section {
+    display: none;
+} */
+
+
+
+body {
+    background-color: #000;
+    background-image: url("images/pirate.jpg");
+    background-size: 100% 700px;
+    background-repeat: no-repeat;
+    color: #fff
+}
+
+
+/* Header */
+.wrapper {
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    min-width: 575px;
+}
+
+header {
+    display: flex;
+    margin: auto 0 0 50px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Pirata One';
+    margin: auto 0 0 auto;
+    font-size: 64px;
+}
+
+header > img {
+    width: 100px;
+    height: 100px;
+    margin: auto auto auto 0;
+}
+
+/* Main menu */
+.menu-section {
+    text-align: center;
+}
+
+.menu-section > p {
+    margin: 10px 0 0 0;
+    font-size: 20px;
+}
+
+.enter-btn {
+    color: #0020e5;
+    background: none;
+	border: none;
+	padding: auto;
+	font: inherit;
+	cursor: pointer;
+    border: 1px solid #ff0000;
+}
+
+.red::placeholder {
+    color: #ff0000;
+}
+
+
+/* Slot machine */
+.win-message-h4 {
+    display: none;
+}
+
+.slots-div > img {
+    width: 100px;
+}
+
+main {
+    display: none;
+}
+
+.win-p {
+    display: none;
+}
+
+
+/* Footer */
+footer {
+    text-align: right;
+    padding: 10px;
+}

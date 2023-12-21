@@ -4,10 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loot of Blackbeard</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+
     <script defer src="app.js"></script>
 </head>
 <body>
-    <h1>Loot of Blackbeard</h1>
+    <div class="wrapper">
+        <header>
+            <h1>Loot of Blackbeard</h1>
+            <img src="images/logo-sword.png" alt="Pirate wielding a sword.">
+        </header>
+        
+        <!-- Main menu-->
+        <section class="menu-section">
+            <p>Account Balance: <span class="balance-span">15000</span></p>
+            <input class="deposit-input" type="number" placeholder="Enter deposit value">
+            <button class="enter-btn">I am 18+</button>
+        </section>
+
+        <!-- Slot machine-->
+        <main>
+            <section class="slot-machine-section">
+                <h4 class="prize-h4">Grand Prize: <span id="prize-id">10</span></h4>
+                <h4 class="win-message-h4">HUUUUGE WIN!!!</h4>
+
+                <div class="slots-div">
+                    <img id="slot1" src="images/slots-treasure.jpg" alt="$">
+                    <img id="slot2" src="images/slots-treasure.jpg" alt="$">
+                    <img id="slot3" src="images/slots-treasure.jpg" alt="$">
+                </div>
+
+                <p class="game-p">Coins: <span class="coins-span">0</span></p>
+                <p class="game-p">Bet: <span class="bet-span">1</span></p>
+                <p class="win-p">Win: <span class="win-span">0</span></p>
+            </section>
+
+            <section class="game-btns-section">
+                <button class="withdraw-btn">Withdraw</button>
+                <button class="play-btn">Play</button>
+                <p>Bet size: </p>
+                <ul>
+                    <li><button>1</button></li>
+                    <li><button>2</button></li>
+                    <li><button>5</button></li>
+                    <li><button>10</button></li>
+                    <li><button>25</button></li>
+                    <li><button>100</button></li>
+                    <li><button>250</button></li>
+                    <li><button>500</button></li>
+                    <li><button>750</button></li>
+                    <li><button>1000</button></li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            2023 &copy; CaseyCheese
+        </footer>
+    </div>
 </body>
 </html>
