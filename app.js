@@ -79,9 +79,6 @@ function handleWithdraw() {
     coins = 0;
     betSpan.textContent = 1;
     winSpan.textContent = 0;
-    for (let bet of betSizeBtns) {
-        bet.disabled = false;
-    }
 }
 
 function handlePlay() {
@@ -135,6 +132,8 @@ function checkBalance() {
     for (let bet of betSizeBtns) {
         if (Number(bet.textContent) > coins) {
             bet.disabled = true;
+        } else {
+            bet.disabled = false;
         }
     }
 
