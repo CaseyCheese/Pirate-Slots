@@ -1,4 +1,6 @@
 ## Game Title: Loot of Blackbeard
+This is my first project I'm adding to GitHub! I decided to create a pirate-themed slot machine as I've found myself to be intrigued by how they are able to capture people's attention so well. Learning the odds behind winning in these machines has turned me off from using them in real life xD.
+
 
 ### Description of the game
 - 'Loot of Blackbeard' is a pirate-themed slot machine based game running in the web browser.
@@ -9,11 +11,15 @@
 - If you withdraw before your bank account reaches 0 gold coins, you win!
 
 
+### Wireframe
+![Wireframe.](screenshots/wireframe.jpg)
+
+
 ### Screenshots
-![Main menu.](screenshots/main-menu.png)
-![The slot machine in action.](screenshots/slot-machine.png)
+![Main menu.](screenshots/menu.png)
+![The slot machine in action.](screenshots/game.png)
 ![Winning the jackpot.](screenshots/jackpot.png)
-![Picture of game-win condition.](screenshots/game-win.png)
+![Picture of game-win condition.](screenshots/win.png)
 ![Going bankrupt.](screenshots/bankrupt.png)
 
 ### Technologies Used
