@@ -38,7 +38,7 @@ function handleEnter() {
     const balance = Number(balanceSpan.textContent);
 
     // Checking for valid input
-    if (deposit >= 1 && deposit <= balance) {
+    if (deposit >= 1 && deposit <= balance && deposit === Math.floor(deposit)) {
         balanceSpan.textContent -= deposit;
         coinsSpan.textContent = deposit;
         checkBalance();
